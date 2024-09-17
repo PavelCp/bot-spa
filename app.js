@@ -15,7 +15,8 @@ btn.addEventListener("click", function () {
     alert(`input::: ${input}`)
     alert(`inputV::: ${inputV}`)
     tg.MainButton.show();
-    document.getElementById("inputP").textContent = input
+    document.getElementById("inputP").textContent = inputV;
     console.log('\n\ninput::', input)
+    console.log('\n\ninputV::', inputV)
     // tg.sendData("sendTestMessage");
 });
