@@ -42,3 +42,8 @@ body {
 .btn:hover {
 	background: whitesmoke;
 }
+
+.p {
+	border: thick double #32a1ce;
+	padding: 10px 20px;
+}
