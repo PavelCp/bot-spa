@@ -10,7 +10,7 @@ const input = document.getElementById("fname").textContent;
 
 btn.addEventListener("click", function () {
     tg.MainButton.setText("Сообщение отправлено!");
-    tg.MainButton.hide();
+    tg.MainButton.show();
     document.getElementById("inputP").textContent = input
     // tg.sendData("sendTestMessage");
 });
